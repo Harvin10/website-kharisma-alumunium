@@ -108,6 +108,9 @@ header {
     display: block;
     background-color: lime;
     height: 70px;
+    width: 100%;
+    padding: 0 10px;
+    position: fixed;
 }
 
 header ul {
@@ -131,9 +134,22 @@ header ul li a {
 header ul li a:hover {
     color: pink;
 }
-/*End of header*/
 
+/*End of header*/
 /*Start of WELCOME PAGE*/
+.WELCOMEPAGE {
+    background-color: cyan;
+    background-image: url(#);
+    height: 380px;
+    width: 100%;
+    padding-top: 70px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 72pt;
+}
+
+
 /*End of WELCOME PAGE*/
 
 
