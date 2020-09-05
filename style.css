@@ -101,28 +101,31 @@ input, select {
     vertical-align:middle;
 }
 
-/*my code*/
+/*---------------------------------------------------*/
 
 header {
+    display: block;
+    background-color: green;
+    height: 70px;
+}
+
+header img {
     display: inline-block;
-    background-color: #cccccc;
-    width: 100%;
-    height: 50px;
 }
 
 header ul {
+    display: inline-block;
+    height: 100%;
     float: right;
+    margin-right: 30px;
 }
 
 header ul li {
-    width: 100px;
-    height: 100%;
-    list-style-type: none;
     display: inline-block;
+    height: 100%;
 }
 
 header ul li a {
-    height: 100%;
-    width: fit-content;
-    display: block;
+    display: inline-block;
+    margin: auto;
 }
