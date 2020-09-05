@@ -117,7 +117,7 @@ header {
 
 header ul {
     display: inline-flex;
-    margin-top: 25px;
+    margin-top: 40px;
     margin-right: 25px;
     float: right;
     width: 300px;
@@ -143,9 +143,9 @@ header ul li a:hover {
 .WELCOMEPAGE {
     background-color: cyan;
     background-image: url(#);
-    height: 650px;
+    height: 620px;
     width: 100%;
-    padding-top: 70px;
+    padding-top: 100px;
     display: inline-flex;
     justify-content: center;
     align-items: center;
