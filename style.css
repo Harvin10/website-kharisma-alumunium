@@ -112,6 +112,10 @@ header {
     position: fixed;
 }
 
+header img {
+    margin-top: 40px;
+}
+
 header ul {
     display: inline-flex;
     margin-top: 40px;
@@ -169,6 +173,28 @@ header ul li a:hover {
     padding: 20px;
 }
 
+.PRODUCT .CARD p {
+    text-transform: uppercase;
+    font-size: 35px;
+    margin: 0 10px;
+}
+
+.PRODUCT .CARD .HARGA {
+    margin: 20px auto;
+    display: inline-block;
+}
+
+.PRODUCT .CARD h2 {
+    font-size: 50px;
+    display: inline;
+}
+
+.PRODUCT .CARD .HARGA p {
+    font-size: 15px;
+    display: inline;
+    text-transform: lowercase;
+    margin: 0;
+}
 /*End of product*/
 /*Start of contact*/
 .CONTACT {
