@@ -103,29 +103,37 @@ input, select {
 
 /*---------------------------------------------------*/
 
+/*Start of header*/
 header {
     display: block;
-    background-color: green;
+    background-color: lime;
     height: 70px;
 }
 
-header img {
-    display: inline-block;
-}
-
 header ul {
-    display: inline-block;
-    height: 100%;
+    display: inline-flex;
+    margin-top: 25px;
     float: right;
-    margin-right: 30px;
+    width: 300px;
+    justify-content: space-evenly;
 }
 
 header ul li {
-    display: inline-block;
-    height: 100%;
+    display: inline;
 }
 
 header ul li a {
-    display: inline-block;
-    margin: auto;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
 }
+
+header ul li a:hover {
+    color: pink;
+}
+/*End of header*/
+
+/*Start of WELCOME PAGE*/
+/*End of WELCOME PAGE*/
+
+
