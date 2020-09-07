@@ -157,6 +157,16 @@ header ul li a:hover {
 /*Start of product*/
 .PRODUCT {
     background-color: yellow;
+    display: block;
+}
+
+.TITLE {
+    width: fit-content;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.CARDS {
     width: 100%;
     display: inline-flex;
     justify-content: space-evenly;
@@ -164,7 +174,7 @@ header ul li a:hover {
     flex-wrap: wrap;
 }
 
-.PRODUCT .CARD {
+.CARDS .CARD {
     display: inline;
     background-color: pink;
     height: 400px;
@@ -174,23 +184,23 @@ header ul li a:hover {
     padding: 20px;
 }
 
-.PRODUCT .CARD p {
+.CARDS .CARD p {
     text-transform: uppercase;
     font-size: 35px;
     margin: 0 10px;
 }
 
-.PRODUCT .CARD .HARGA {
+.CARDS .CARD .HARGA {
     margin: 20px auto;
     display: inline-block;
 }
 
-.PRODUCT .CARD h2 {
+.CARDS .CARD h3 {
     font-size: 50px;
     display: inline;
 }
 
-.PRODUCT .CARD .HARGA p {
+.CARDS .CARD .HARGA p {
     font-size: 15px;
     display: inline;
     text-transform: lowercase;
