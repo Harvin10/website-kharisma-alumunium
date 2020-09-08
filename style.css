@@ -175,7 +175,7 @@ header ul li a:hover {
 }
 
 .CARDS .CARD {
-    display: inline;
+    display: block;
     background-color: pink;
     height: 400px;
     width: 250px;
@@ -184,27 +184,49 @@ header ul li a:hover {
     padding: 20px;
 }
 
-.CARDS .CARD p {
+.CARDS .CARD .PRODUCTNAME {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.CARDS .CARD .PRODUCTNAME p {
     text-transform: uppercase;
     font-size: 35px;
-    margin: 0 10px;
 }
 
 .CARDS .CARD .HARGA {
-    margin: 20px auto;
-    display: inline-block;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: baseline;
 }
 
-.CARDS .CARD h3 {
+.CARDS .CARD .HARGA h3 {
     font-size: 50px;
-    display: inline;
+    display: inline-block;
 }
 
 .CARDS .CARD .HARGA p {
     font-size: 15px;
-    display: inline;
+    display: inline-block;
     text-transform: lowercase;
     margin: 0;
+}
+
+.CARDS .CARD .BUTTON {
+    background-color: red;
+    display: flex;
+    width: 150px;
+    height: 50px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.CARDS .CARD .BUTTON a {
+    text-decoration: none;
+
 }
 /*End of product*/
 /*Start of contact*/
