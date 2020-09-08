@@ -215,18 +215,18 @@ header ul li a:hover {
 }
 
 .CARDS .CARD .BUTTON {
+    margin-top: 200px;
+}
+
+.CARDS .CARD .BUTTON a {
     background-color: red;
     display: flex;
-    width: 150px;
+    width: 200px;
     height: 50px;
     margin: auto;
     justify-content: center;
     align-items: center;
-}
-
-.CARDS .CARD .BUTTON a {
     text-decoration: none;
-
 }
 /*End of product*/
 /*Start of contact*/
