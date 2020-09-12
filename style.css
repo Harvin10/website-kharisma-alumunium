@@ -102,6 +102,16 @@ input, select {
 }
 
 /*---------------------------------------------------*/    
+
+@font-face {
+    font-family: Railling;
+    src: url(font/static/Raleway-Medium.ttf);
+}
+
+* {
+    font-family: "Railling";
+}
+
 /*Start of header*/
 header {
     display: block;
