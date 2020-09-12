@@ -105,7 +105,7 @@ input, select {
 /*Start of header*/
 header {
     display: block;
-    background-color: lime;
+    background-color: #db2d43;
     height: 100px;
     width: 100%;
     padding: 0 10px;
@@ -143,21 +143,29 @@ header ul li a:hover {
 /*End of header*/
 /*Start of WELCOME PAGE*/
 .WELCOMEPAGE {
-    background-color: cyan;
-    background-image: url(#);
+    background-image: url(img/Biru_kayu/tampak_depan_copy_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
     height: 620px;
     width: 100%;
     padding-top: 100px;
+}
+
+.WELCOMEPAGE .SIGN {
+    width: 100%;
+    height: 100%;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     font-size: 72pt;
+    background-color: rgba(255,255,255,25%);
 }
 
 /*End of WELCOME PAGE*/
 /*Start of product*/
 .PRODUCT {
-    background-color: yellow;
+    background-color: white;
     display: block;
 }
 
@@ -176,7 +184,7 @@ header ul li a:hover {
 
 .CARDS .CARD {
     display: block;
-    background-color: pink;
+    background-color: #f8f6f6;
     height: 400px;
     width: 250px;
     margin: 30px;
@@ -219,7 +227,7 @@ header ul li a:hover {
 }
 
 .CARDS .CARD .BUTTON a {
-    background-color: red;
+    background-color: #db2d43;
     color: black;
     display: flex;
     width: 200px;
@@ -234,14 +242,14 @@ header ul li a:hover {
 }
 
 .CARDS .CARD .BUTTON a:hover {
-    background-color: purple;
+    background-color: #006c9a;
     color: white;
 }
 
 /*End of product*/
 /*Start of contact*/
 .CONTACT {
-    background-color: brown;
+    background-color: #006c9a;
     width: 100%;
     height: 300px;
 }
