@@ -104,12 +104,17 @@ input, select {
 /*---------------------------------------------------*/    
 
 @font-face {
-    font-family: Railling;
-    src: url(font/static/Raleway-Medium.ttf);
+    font-family: Raleway medium;
+    src: url(font/Raleway/static/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: Nanum;
+    src: url(font/Nanum_Gothic/NanumGothic-Regular.ttf);
 }
 
 * {
-    font-family: "Railling";
+    font-family: "Nanum";
 }
 
 /*Start of header*/
@@ -147,7 +152,7 @@ header ul li a {
 }
 
 header ul li a:hover {
-    color: pink;
+    color: #006c9a;
 }
 
 /*End of header*/
@@ -157,7 +162,7 @@ header ul li a:hover {
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
-    height: 620px;
+    height: 700px;
     width: 100%;
     padding-top: 100px;
 }
@@ -221,7 +226,7 @@ header ul li a:hover {
 }
 
 .CARDS .CARD .HARGA h3 {
-    font-size: 50px;
+    font-size: 40px;
     display: inline-block;
 }
 
@@ -261,6 +266,19 @@ header ul li a:hover {
 .CONTACT {
     background-color: #006c9a;
     width: 100%;
-    height: 300px;
+    height: 200px;
 }
+
+.CONTACT .ICON {
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+}
+
+.CONTACT .ICON img {
+    width: 40px;
+    height: 40px;
+}
+
 /*End of contact*/
